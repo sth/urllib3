@@ -414,7 +414,7 @@ class Retry:
                 self.status,
                 self.other,
             )
-            if x
+            if x is not None
         ]
         if not retry_counts:
             return False
